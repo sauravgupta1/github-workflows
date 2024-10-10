@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "create-branch-from-release-py"
+version = "0.1.0"
+description = "this is created to allow a new release tag to be created from a tag and create a new branch"
+authors = ["saurav"]
+license = "Open"
+readme = "README.md"
+packages = [{include = "create_branch_from_release"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+exit
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
